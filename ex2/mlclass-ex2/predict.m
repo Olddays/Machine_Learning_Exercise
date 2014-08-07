@@ -15,7 +15,8 @@ p = zeros(m, 1);
 %               You should set p to a vector of 0's and 1's
 %
 
-%p=(sigmoid(X*theta)>=0.5);
+%p=(sigmoid(X*theta)>=0.5); 
+%This above line can also works as the following one, but I think It not good as the latter.
 p=(X*theta>=0);
 
 
