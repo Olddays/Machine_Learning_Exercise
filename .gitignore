@@ -1,4 +1,4 @@
-*.mat
+ml_login_data.mat
 
 # Windows image file caches
 Thumbs.db
